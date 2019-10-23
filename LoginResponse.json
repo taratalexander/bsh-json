@@ -1,0 +1,68 @@
+{
+    "data": {
+        "id": 123456,
+        "firstName": "Rafael",
+        "middleName": "Nadal",
+        "lastName": "Parera",
+        "deptName": "Accounts Department",
+        "currency": "AED",
+        "isManager": false,
+        "helpDesk": {
+          "email": "helpdesk@pepsi.com",
+          "phone": "8000511111"
+        },
+        "profile": [
+          {
+            "title": "User Name",
+            "value": "XYZABC"
+          },
+          {
+            "title": "Employee No",
+            "value": "123456"
+          },
+          {
+            "title": "Unit",
+            "value": "Finance"
+          },
+          {
+            "title": "Position",
+            "value": "Finance Trainee"
+          },
+          {
+            "title": "Grade",
+            "value": "C"
+          },
+          {
+            "title": "Reporting Manager",
+            "value": "ABCD EFG"
+          }
+        ],
+        "requestsReports": [
+            {
+                "code": "LCR",
+                "description": "Expense Claim Request",
+                "type": "REQUEST",
+                "favorite": true
+            },
+            {
+                "code": "LNR",
+                "description": "Loan Request",
+                "type": "REQUEST",
+                "favorite": false
+            },
+            {
+                "code": "LSR",
+                "description": "Leave Statement Report",
+                "type": "REPORT",
+                "favorite": true
+            },
+            {
+                "code": "OTR",
+                "description": "Overtime Report",
+                "type": "REPORT",
+                "favorite": false
+            }
+        ]
+    },
+    "status": "SUCCESS"
+}
