@@ -1,0 +1,71 @@
+{
+  "status": "success",
+  "data": {
+    "status": [
+      {
+        "code": "ALL",
+        "description": "All"
+      },
+      {
+        "code": "APR",
+        "description": "Approved"
+      },
+      {
+        "code": "REJ",
+        "description": "Rejected"
+      },
+      {
+        "code": "PEND",
+        "description": "Pending"
+      },
+      {
+        "code": "CAN",
+        "description": "Cancelled"
+      }
+    ],
+    "requestType": [
+       {
+        "code": "LREQ",
+        "description": "Leave Request"
+      },
+      {
+        "code": "LRET",
+        "description": "Leave Return"
+      },
+      {
+        "code": "LCAN",
+        "description": "Leave Cancel"
+      },
+      {
+        "code": "LADJ",
+        "description": "Leave Adjustment"
+      },
+      {
+        "code": "LCAS",
+        "description": "Cash Leave"
+      }
+    ],
+    "type": [
+      {
+        "code": "ALL",
+        "description": "All"
+      },
+      {
+        "code": "SIK",
+        "description": "Sick Leave"
+      },
+      {
+        "code": "HAJ",
+        "description": "Haj Leave"
+      },
+      {
+        "code": "UMAT",
+        "description": "Unpaid Maternity Leave"
+      },
+      {
+        "code": "ANL",
+        "description": "Annual Leave"
+      }
+    ]
+  }
+}
