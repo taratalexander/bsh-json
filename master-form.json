@@ -1,0 +1,686 @@
+{
+  "forms": [
+    {
+      "key": "PRS_ID",
+      "tag": "PRS_ID_30524",
+      "title": "Person Id",
+      "type": "control_Label",
+      "value": "",
+      "orientation": "horizontal"
+    },
+    {
+      "key": "LEAVE_START_DATE",
+      "tag": "LEAVE_START_DATE_31823",
+      "type": "control_calendarRange",
+      "value": "06-10-2019|06-10-2019",
+      "required": "true",
+      "validations": [
+        {
+          "error": "Field is required",
+          "rule": "required"
+        }
+      ],
+      "dateFormat": "dd-mm-yyyy",
+      "placeholder_left": "Leave Start Date",
+      "placeholder_right": "Leave End Date",
+      "startMinDate": "06-10-2018",
+      "startMaxDate": "06-10-2020",
+      "endMinDate": "06-10-2018",
+      "endMaxDate": "06-10-2020",
+      "maxDays": ""
+    },
+    {
+      "key": "EMPLOYEE_FULL_NAME",
+      "tag": "EMPLOYEE_FULL_NAME_30528",
+      "title": "<font face=\"Tahoma\"><b>Employee</b></font>",
+      "type": "control_Dropdown",
+      "value": "",
+      "placeholder": "Select ...",
+      "orientation": "horizontal",
+      "required": "false",
+      "validations": [],
+      "options": [
+        {
+          "code": "70637",
+          "desc": "GRACE GRACE"
+        },
+        {
+          "code": "70635",
+          "desc": "FORD MOTORS"
+        },
+        {
+          "code": "70606",
+          "desc": "YESH BAFNA"
+        },
+        {
+          "code": "70616",
+          "desc": "Mahmoud Mokthar"
+        },
+        {
+          "code": "70621",
+          "desc": "Danfoss Danfoss"
+        },
+        {
+          "code": "70610",
+          "desc": "DRE ADMIN "
+        },
+        {
+          "code": "70611",
+          "desc": "Sameh Hamza"
+        },
+        {
+          "code": "70620",
+          "desc": "Aline Doueiry"
+        },
+        {
+          "code": "70599",
+          "desc": "KSENIA KRUBERG"
+        },
+        {
+          "code": "70600",
+          "desc": "SHERYLE VILLANUEVA"
+        },
+        {
+          "code": "70623",
+          "desc": "Mudassar Inam"
+        },
+        {
+          "code": "70625",
+          "desc": "AYESHA SADIQQA"
+        },
+        {
+          "code": "70626",
+          "desc": "Ola Sami "
+        },
+        {
+          "code": "70629",
+          "desc": "Marry JUANITA"
+        },
+        {
+          "code": "70601",
+          "desc": "SHABEER MEETHELE"
+        },
+        {
+          "code": "70630",
+          "desc": "Makram "
+        },
+        {
+          "code": "70631",
+          "desc": "Indu "
+        },
+        {
+          "code": "70622",
+          "desc": "Kasia Budzikowska "
+        },
+        {
+          "code": "70590",
+          "desc": "MARKO TAYLOR"
+        },
+        {
+          "code": "70591",
+          "desc": "KAREEM SEDKEY"
+        },
+        {
+          "code": "70593",
+          "desc": "ABDUL RAUF"
+        },
+        {
+          "code": "70594",
+          "desc": "MOHAMMAD AL KHALEEL"
+        },
+        {
+          "code": "70595",
+          "desc": "TATJANA DOMOVITS"
+        },
+        {
+          "code": "70603",
+          "desc": "Wafa "
+        },
+        {
+          "code": "70618",
+          "desc": "Suzette Trinidad"
+        },
+        {
+          "code": "70609",
+          "desc": "Houssam Hatoum"
+        },
+        {
+          "code": "70612",
+          "desc": "Tarek "
+        },
+        {
+          "code": "70613",
+          "desc": "Osama El Seidy"
+        }
+      ]
+    },
+    {
+      "key": "EXPCEPTION_FLAG",
+      "tag": "EXPCEPTION_FLAG_300272",
+      "title": "Exception?",
+      "type": "control_CheckBox",
+      "value": ""
+    },
+    {
+      "key": "REQUEST_DATE",
+      "tag": "REQUEST_DATE_300275",
+      "title": "Request Date",
+      "type": "control_calendar",
+      "value": "06-10-2019",
+      "placeholder": "Select ...",
+      "orientation": "horizontal",
+      "required": "true",
+      "validations": [
+        {
+          "error": "Field is required",
+          "rule": "required"
+        }
+      ],
+      "dateFormat": "dd-mm-yyyy",
+      "minDate": "06-10-2018",
+      "maxDate": "06-10-2020"
+    },
+    {
+      "key": "ADVANCE_PAYMENT_FLAG",
+      "tag": "ADVANCE_PAYMENT_FLAG_245735",
+      "title": "Adv. Payment",
+      "type": "control_Dropdown",
+      "value": "N",
+      "placeholder": "Select ...",
+      "orientation": "horizontal",
+      "required": "false",
+      "validations": [],
+      "options": [
+        {
+          "code": "Y",
+          "desc": "Yes"
+        },
+        {
+          "code": "N",
+          "desc": "No"
+        }
+      ]
+    },
+    {
+      "key": "PASSPORT_FLAG",
+      "tag": "PASSPORT_FLAG_296030",
+      "title": "Issue Exit Documents ?",
+      "type": "control_CheckBox",
+      "value": ""
+    },
+    {
+      "key": "DESTINATION",
+      "tag": "DESTINATION_329320",
+      "title": "Destination",
+      "type": "control_EditText",
+      "value": "",
+      "placeholder": "Select ...",
+      "orientation": "horizontal",
+      "required": "false",
+      "validations": [],
+      "maxLength": "",
+      "textDirection": "ltr",
+      "inputType": "alphanumeric"
+    },
+    {
+      "key": "TEL_IN_LEAVE",
+      "tag": "TEL_IN_LEAVE_34428",
+      "title": "Emergency Telephone",
+      "type": "control_EditText",
+      "value": "",
+      "placeholder": "Select ...",
+      "orientation": "horizontal",
+      "required": "true",
+      "validations": [
+        {
+          "error": "Field is required",
+          "rule": "required"
+        }
+      ],
+      "maxLength": "",
+      "inputType": "numeric"
+    },
+    {
+      "key": "REPLACING_PRS_ID",
+      "tag": "REPLACING_PRS_ID_43443",
+      "title": "Deputy",
+      "type": "control_Dropdown",
+      "value": "",
+      "placeholder": "Select ...",
+      "orientation": "horizontal",
+      "required": "false",
+      "validations": [],
+      "options": [
+        {
+          "code": "DRE ADMIN ( 4 )",
+          "desc": "70610"
+        },
+        {
+          "code": "FORD MOTORS( 4352 )",
+          "desc": "70635"
+        },
+        {
+          "code": "GRACE GRACE( 3873 )",
+          "desc": "70637"
+        },
+        {
+          "code": "MOHAMMAD AL KHALEEL( 35 )",
+          "desc": "70594"
+        },
+        {
+          "code": "Sameh Hamza( 3 )",
+          "desc": "70611"
+        }
+      ]
+    },
+    {
+      "key": "WEB_REMARKS",
+      "tag": "WEB_REMARKS_296029",
+      "title": "Remarks",
+      "type": "control_EditTextView",
+      "value": "",
+      "placeholder": "Select ...",
+      "orientation": "horizontal",
+      "required": "false",
+      "validations": [],
+      "maxLength": "",
+      "textDirection": "ltr",
+      "inputType": "alphanumeric"
+    },
+    {
+      "key": "REPLACING_EMPLOYEE_NO",
+      "tag": "REPLACING_EMPLOYEE_NO_43444",
+      "title": "Replacing Empl.",
+      "type": "control_EditText",
+      "value": "",
+      "placeholder": "Select ...",
+      "orientation": "horizontal",
+      "required": "false",
+      "validations": [],
+      "maxLength": "",
+      "textDirection": "ltr",
+      "inputType": "alphanumeric"
+    },
+    {
+      "key": "REPLACING_EMPLOYEE_NAME",
+      "tag": "REPLACING_EMPLOYEE_NAME_43445",
+      "title": "Deputy",
+      "type": "control_Dropdown",
+      "value": "",
+      "placeholder": "Select ...",
+      "orientation": "horizontal",
+      "required": "false",
+      "validations": []
+    },
+    {
+      "key": "ADDRESS_IN_LEAVE",
+      "tag": "ADDRESS_IN_LEAVE_34426",
+      "title": "Address/Remarks",
+      "type": "control_EditTextView",
+      "value": "",
+      "placeholder": "Select ...",
+      "orientation": "horizontal",
+      "required": "false",
+      "validations": [],
+      "maxLength": "",
+      "textDirection": "ltr",
+      "inputType": "alphanumeric"
+    },
+    {
+      "key": "EXCEPTION_DETAILS",
+      "tag": "EXCEPTION_DETAILS_300274",
+      "title": "",
+      "type": "control_EditTextView",
+      "value": "",
+      "placeholder": "Select ...",
+      "orientation": "horizontal",
+      "required": "false",
+      "validations": [],
+      "maxLength": "",
+      "textDirection": "ltr",
+      "inputType": "alphanumeric"
+    },
+    {
+      "key": "PASSPORT_ALERT_COUNT",
+      "tag": "PASSPORT_ALERT_COUNT_306378",
+      "title": "Base On Offer",
+      "type": "control_EditText",
+      "value": "0",
+      "placeholder": "Select ...",
+      "orientation": "horizontal",
+      "required": "false",
+      "validations": [],
+      "maxLength": "",
+      "inputType": "numeric"
+    },
+    {
+      "key": "PRSLVMF020D",
+      "tag": "PRSLVMF020D_56531",
+      "title": "Leave Details",
+      "type": "control_Entity_Form",
+      "required": "true",
+      "value": ""
+    }
+  ],
+  "subForms": [
+    {
+      "component": "PRSLVMF020D_56531",
+      "Forms": [
+        {
+          "tag": "info_PRSLVMF020D_56531",
+          "title": "Leave Details",
+          "type": "control_Info",
+          "alignment": "LEFT"
+        },
+        {
+          "key": "LEAVE_TYPE_LKP",
+          "tag": "LEAVE_TYPE_LKP_56548",
+          "title": "Leave Type lkp",
+          "type": "control_EditText",
+          "value": "",
+          "placeholder": "Select ...",
+          "orientation": "horizontal",
+          "required": "true",
+          "validations": [
+            {
+              "error": "Field is required",
+              "rule": "required"
+            }
+          ],
+          "rowPattern": {
+            "visible": true,
+            "order": 2,
+            "fontStyle": "normal",
+            "alignment": "right"
+          },
+          "maxLength": "",
+          "inputType": "numeric"
+        },
+        {
+          "key": "ID",
+          "tag": "ID_65115",
+          "title": "id",
+          "type": "control_EditText",
+          "value": "",
+          "placeholder": "Select ...",
+          "orientation": "horizontal",
+          "required": "false",
+          "validations": [],
+          "rowPattern": {
+            "visible": true,
+            "order": 2,
+            "fontStyle": "normal",
+            "alignment": "right"
+          },
+          "maxLength": "",
+          "inputType": "numeric"
+        },
+        {
+          "key": "LEAVE_TYPE_DESC_N",
+          "tag": "LEAVE_TYPE_DESC_N_56550",
+          "title": "Leave Type",
+          "type": "control_Dropdown",
+          "value": "",
+          "placeholder": "Select ...",
+          "orientation": "horizontal",
+          "required": "true",
+          "validations": [
+            {
+              "error": "Field is required",
+              "rule": "required"
+            }
+          ],
+          "rowPattern": {
+            "visible": true,
+            "order": 2,
+            "fontStyle": "normal",
+            "alignment": "right"
+          }
+        },
+        {
+          "key": "LEAVE_START_DATE",
+          "tag": "LEAVE_START_DATE_56547",
+          "title": "Start Date",
+          "type": "control_calendar",
+          "value": "",
+          "placeholder": "Select ...",
+          "orientation": "horizontal",
+          "required": "true",
+          "validations": [
+            {
+              "error": "Field is required",
+              "rule": "required"
+            }
+          ],
+          "rowPattern": {
+            "visible": true,
+            "order": 2,
+            "fontStyle": "normal",
+            "alignment": "right"
+          },
+          "dateFormat": "dd-mm-yyyy",
+          "minDate": "06-10-2018",
+          "maxDate": "06-10-2020"
+        },
+        {
+          "key": "LEAVE_END_DATE",
+          "tag": "LEAVE_END_DATE_56551",
+          "title": "End Date",
+          "type": "control_calendar",
+          "value": "",
+          "placeholder": "Select ...",
+          "orientation": "horizontal",
+          "required": "true",
+          "validations": [
+            {
+              "error": "Field is required",
+              "rule": "required"
+            }
+          ],
+          "rowPattern": {
+            "visible": true,
+            "order": 2,
+            "fontStyle": "normal",
+            "alignment": "right"
+          },
+          "dateFormat": "dd-mm-yyyy",
+          "minDate": "06-10-2018",
+          "maxDate": "06-10-2020"
+        },
+        {
+          "key": "LEAVE_BALANCE",
+          "tag": "LEAVE_BALANCE_56533",
+          "title": "Balance",
+          "type": "control_Label",
+          "value": "",
+          "orientation": "horizontal",
+          "rowPattern": {
+            "visible": true,
+            "order": 2,
+            "fontStyle": "normal",
+            "alignment": "right"
+          }
+        },
+        {
+          "key": "LEAVE_DAYS",
+          "tag": "LEAVE_DAYS_56564",
+          "title": "#Leave Days",
+          "type": "control_Label",
+          "value": "",
+          "orientation": "horizontal",
+          "rowPattern": {
+            "visible": true,
+            "order": 2,
+            "fontStyle": "normal",
+            "alignment": "right"
+          }
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "relatedServices": [
+    {
+      "relatedComponents": "[EmployeeNumber]",
+      "inputParams": "[EmployeeNumber]",
+      "endpoint": "/form/search",
+      "triggerId": "36835",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[EMPLOYEE_NO_30525]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444]",
+      "endpoint": "/form/service",
+      "triggerId": "36836",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[EMPLOYEE_NO_30525]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525]",
+      "endpoint": "/form/service",
+      "triggerId": "36837",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[_]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823]",
+      "endpoint": "/form/service",
+      "triggerId": "36838",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[EMPLOYEE_NO_30525]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524]",
+      "endpoint": "/form/service",
+      "triggerId": "36839",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[REPLACING_EMPLOYEE_NO_43444]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524,REPLACING_EMPLOYEE_NO_43444]",
+      "endpoint": "/form/service",
+      "triggerId": "36840",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[_]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524,REPLACING_EMPLOYEE_NO_43444,TRANS_EMP_ID_56577]",
+      "endpoint": "/form/service",
+      "triggerId": "36841",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[_]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524,REPLACING_EMPLOYEE_NO_43444,TRANS_EMP_ID_56577,TRANS_EMP_ID_56577,PAID_FLAG_65105,ELIGIBLE_FLAG_56580,PRS_ID_30524]",
+      "endpoint": "/form/service",
+      "triggerId": "36842",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[_]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524,REPLACING_EMPLOYEE_NO_43444,TRANS_EMP_ID_56577,TRANS_EMP_ID_56577,PAID_FLAG_65105,ELIGIBLE_FLAG_56580,PRS_ID_30524,TRANS_EMP_ID_56577,PRS_ID_30524]",
+      "endpoint": "/form/service",
+      "triggerId": "36843",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[EMPLOYEE_NO_30525]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524,REPLACING_EMPLOYEE_NO_43444,TRANS_EMP_ID_56577,TRANS_EMP_ID_56577,PAID_FLAG_65105,ELIGIBLE_FLAG_56580,PRS_ID_30524,TRANS_EMP_ID_56577,PRS_ID_30524,EMPLOYEE_NO_30525]",
+      "endpoint": "/form/service",
+      "triggerId": "36844",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[REPLACING_EMPLOYEE_NO_43444]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524,REPLACING_EMPLOYEE_NO_43444,TRANS_EMP_ID_56577,TRANS_EMP_ID_56577,PAID_FLAG_65105,ELIGIBLE_FLAG_56580,PRS_ID_30524,TRANS_EMP_ID_56577,PRS_ID_30524,EMPLOYEE_NO_30525]",
+      "endpoint": "/form/service",
+      "triggerId": "36845",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[_]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524,REPLACING_EMPLOYEE_NO_43444,TRANS_EMP_ID_56577,TRANS_EMP_ID_56577,PAID_FLAG_65105,ELIGIBLE_FLAG_56580,PRS_ID_30524,TRANS_EMP_ID_56577,PRS_ID_30524,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_END_DATE_34424]",
+      "endpoint": "/form/service",
+      "triggerId": "36846",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[_]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524,REPLACING_EMPLOYEE_NO_43444,TRANS_EMP_ID_56577,TRANS_EMP_ID_56577,PAID_FLAG_65105,ELIGIBLE_FLAG_56580,PRS_ID_30524,TRANS_EMP_ID_56577,PRS_ID_30524,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_END_DATE_34424,PRS_ID_30524,GRADE_ID_30526,ORGANIZATION_UNIT_ID_30908,NATIONALITY_ID_30910,PRESENCE_STATUS_LKP_30912]",
+      "endpoint": "/form/service",
+      "triggerId": "36847",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[_]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524,REPLACING_EMPLOYEE_NO_43444,TRANS_EMP_ID_56577,TRANS_EMP_ID_56577,PAID_FLAG_65105,ELIGIBLE_FLAG_56580,PRS_ID_30524,TRANS_EMP_ID_56577,PRS_ID_30524,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_END_DATE_34424,PRS_ID_30524,GRADE_ID_30526,ORGANIZATION_UNIT_ID_30908,NATIONALITY_ID_30910,PRESENCE_STATUS_LKP_30912,LEAVE_START_DATE_31823]",
+      "endpoint": "/form/service",
+      "triggerId": "36848",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[EMPLOYEE_NO_30525]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524,REPLACING_EMPLOYEE_NO_43444,TRANS_EMP_ID_56577,TRANS_EMP_ID_56577,PAID_FLAG_65105,ELIGIBLE_FLAG_56580,PRS_ID_30524,TRANS_EMP_ID_56577,PRS_ID_30524,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_END_DATE_34424,PRS_ID_30524,GRADE_ID_30526,ORGANIZATION_UNIT_ID_30908,NATIONALITY_ID_30910,PRESENCE_STATUS_LKP_30912,LEAVE_START_DATE_31823,PRS_ID_30524]",
+      "endpoint": "/form/service",
+      "triggerId": "36849",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[EMPLOYEE_NO_30525]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524,REPLACING_EMPLOYEE_NO_43444,TRANS_EMP_ID_56577,TRANS_EMP_ID_56577,PAID_FLAG_65105,ELIGIBLE_FLAG_56580,PRS_ID_30524,TRANS_EMP_ID_56577,PRS_ID_30524,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_END_DATE_34424,PRS_ID_30524,GRADE_ID_30526,ORGANIZATION_UNIT_ID_30908,NATIONALITY_ID_30910,PRESENCE_STATUS_LKP_30912,LEAVE_START_DATE_31823,PRS_ID_30524,PRS_ID_30524]",
+      "endpoint": "/form/service",
+      "triggerId": "36850",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[EMPLOYEE_NO_30525]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524,REPLACING_EMPLOYEE_NO_43444,TRANS_EMP_ID_56577,TRANS_EMP_ID_56577,PAID_FLAG_65105,ELIGIBLE_FLAG_56580,PRS_ID_30524,TRANS_EMP_ID_56577,PRS_ID_30524,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_END_DATE_34424,PRS_ID_30524,GRADE_ID_30526,ORGANIZATION_UNIT_ID_30908,NATIONALITY_ID_30910,PRESENCE_STATUS_LKP_30912,LEAVE_START_DATE_31823,PRS_ID_30524,PRS_ID_30524,EMPLOYEE_NO_30525]",
+      "endpoint": "/form/service",
+      "triggerId": "36851",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[_]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524,REPLACING_EMPLOYEE_NO_43444,TRANS_EMP_ID_56577,TRANS_EMP_ID_56577,PAID_FLAG_65105,ELIGIBLE_FLAG_56580,PRS_ID_30524,TRANS_EMP_ID_56577,PRS_ID_30524,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_END_DATE_34424,PRS_ID_30524,GRADE_ID_30526,ORGANIZATION_UNIT_ID_30908,NATIONALITY_ID_30910,PRESENCE_STATUS_LKP_30912,LEAVE_START_DATE_31823,PRS_ID_30524,PRS_ID_30524,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577]",
+      "endpoint": "/form/service",
+      "triggerId": "36852",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[EMPLOYEE_NO_30525]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524,REPLACING_EMPLOYEE_NO_43444,TRANS_EMP_ID_56577,TRANS_EMP_ID_56577,PAID_FLAG_65105,ELIGIBLE_FLAG_56580,PRS_ID_30524,TRANS_EMP_ID_56577,PRS_ID_30524,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_END_DATE_34424,PRS_ID_30524,GRADE_ID_30526,ORGANIZATION_UNIT_ID_30908,NATIONALITY_ID_30910,PRESENCE_STATUS_LKP_30912,LEAVE_START_DATE_31823,PRS_ID_30524,PRS_ID_30524,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,EMPLOYEE_NO_30525]",
+      "endpoint": "/form/service",
+      "triggerId": "36831",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[_]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524,REPLACING_EMPLOYEE_NO_43444,TRANS_EMP_ID_56577,TRANS_EMP_ID_56577,PAID_FLAG_65105,ELIGIBLE_FLAG_56580,PRS_ID_30524,TRANS_EMP_ID_56577,PRS_ID_30524,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_END_DATE_34424,PRS_ID_30524,GRADE_ID_30526,ORGANIZATION_UNIT_ID_30908,NATIONALITY_ID_30910,PRESENCE_STATUS_LKP_30912,LEAVE_START_DATE_31823,PRS_ID_30524,PRS_ID_30524,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,EMPLOYEE_NO_30525,REPLACING_PRS_ID_43443,PRS_ID_30524,LEAVE_START_DATE_31823,TRANS_EMP_ID_56577]",
+      "endpoint": "/form/service",
+      "triggerId": "36832",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[EMPLOYEE_NO_30525]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524,REPLACING_EMPLOYEE_NO_43444,TRANS_EMP_ID_56577,TRANS_EMP_ID_56577,PAID_FLAG_65105,ELIGIBLE_FLAG_56580,PRS_ID_30524,TRANS_EMP_ID_56577,PRS_ID_30524,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_END_DATE_34424,PRS_ID_30524,GRADE_ID_30526,ORGANIZATION_UNIT_ID_30908,NATIONALITY_ID_30910,PRESENCE_STATUS_LKP_30912,LEAVE_START_DATE_31823,PRS_ID_30524,PRS_ID_30524,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,EMPLOYEE_NO_30525,REPLACING_PRS_ID_43443,PRS_ID_30524,LEAVE_START_DATE_31823,TRANS_EMP_ID_56577,EMPLOYEE_NO_30525]",
+      "endpoint": "/form/service",
+      "triggerId": "36833",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    },
+    {
+      "relatedComponents": "[_]",
+      "inputParams": "[REPLACING_EMPLOYEE_NO_43444,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_START_DATE_31823,PRS_ID_30524,REPLACING_EMPLOYEE_NO_43444,TRANS_EMP_ID_56577,TRANS_EMP_ID_56577,PAID_FLAG_65105,ELIGIBLE_FLAG_56580,PRS_ID_30524,TRANS_EMP_ID_56577,PRS_ID_30524,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,PRS_ID_30524,LEAVE_END_DATE_34424,PRS_ID_30524,GRADE_ID_30526,ORGANIZATION_UNIT_ID_30908,NATIONALITY_ID_30910,PRESENCE_STATUS_LKP_30912,LEAVE_START_DATE_31823,PRS_ID_30524,PRS_ID_30524,EMPLOYEE_NO_30525,TRANS_EMP_ID_56577,EMPLOYEE_NO_30525,REPLACING_PRS_ID_43443,PRS_ID_30524,LEAVE_START_DATE_31823,TRANS_EMP_ID_56577,EMPLOYEE_NO_30525,PRS_ID_30524]",
+      "endpoint": "/form/service",
+      "triggerId": "36834",
+      "DBFunctionName": "bsh$tp_ui.call_dynamic_trigger"
+    }
+  ],
+  "staticServices": [
+    {
+      "component": "country",
+      "endpoint": "/form/search",
+      "triggerId": "36835",
+      "DBFunctionName": "bsh$tp_ui.get_country_list"
+    }
+  ]
+}
