@@ -2,7 +2,10 @@
   "status": "success",
   "data": [
     {
-      "title": "Leave Request",
+      "requestType": {
+        "code": "LREQ",
+        "desc": "Leave Request"
+      },
       "toolTip": "Annual",
       "status": {
         "code": "APR",
@@ -15,7 +18,10 @@
       "requestInfo": {
         "requestId": "123456",
         "duration": "24 days",
-        "type": "Annual Leave",
+        "type": {
+          "code": "ANL",
+          "desc": "Annual Leave"
+        },
         "dateRange": "12-11-2019|26-11-2019"
       }
     }
