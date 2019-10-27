@@ -1,0 +1,81 @@
+{
+  "status": "success",
+  "data": {
+    "upcomingTickets": [
+      {
+        "from": {
+          "code": "DXB",
+          "description": "Dubai, UAE"
+        },
+        "to": {
+          "code": "CAI",
+          "description": "Cairo, Egypt"
+        },
+        "fee": {
+          "adults": 1200,
+          "children": 1000,
+          "infants": 250,
+          "total": 2450
+        },
+        "class": "Economy"
+      },
+      {
+        "from": {
+          "code": "ABU",
+          "description": "Abu Dhabi, UAE"
+        },
+        "to": {
+          "code": "COK",
+          "description": "Cochin, India"
+        },
+        "fee": {
+          "adults": 6000,
+          "children": 0,
+          "infants": 0,
+          "total": 6000
+        },
+        "class": "Business"
+      }
+    ],
+    "requests": [
+      {
+        "requestType": {
+          "code": "TREQ",
+          "desc": "Ticket Request"
+        },
+        "status": {
+          "code": "APR",
+          "description": "Approved"
+        },
+        "submittedBy": {
+          "name": "abc ctx zzz",
+          "date": "10-08-2019"
+        },
+        "requestedFor": "abc ctx zzz",
+        "requestInfo": {
+          "requestId": "123456",
+          "travellersCount": 2
+        }
+      },
+      {
+        "requestType": {
+          "code": "TREQ",
+          "desc": "Ticket Request"
+        },
+        "status": {
+          "code": "PEN",
+          "description": "Pending"
+        },
+        "submittedBy": {
+          "name": "abc ctx zzz",
+          "date": "10-08-2019"
+        },
+        "requestedFor": "abc ctx zzz",
+        "requestInfo": {
+          "requestId": "123456",
+          "travellersCount": 2
+        }
+      }
+    ]
+  }
+}
