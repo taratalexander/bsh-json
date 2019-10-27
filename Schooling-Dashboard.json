@@ -29,8 +29,8 @@
         "description": "Approved"
       },
       "requestInfo": {
-        "requestId": "123456",
-        "totalFee": "350 AED"
+        "id": "123456",
+        "description": "350 AED"
       },
       "submittedBy": {
         "name": "abc ctx zzz",
