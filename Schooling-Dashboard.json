@@ -4,15 +4,15 @@
     {
       "requestType": {
         "code": "SFREQ",
-        "desc": "Schooling Request"
+        "description": "Schooling Request"
       },
       "status": {
         "code": "APR",
         "description": "Approved"
       },
       "requestInfo": {
-        "requestId": "123456",
-        "totalFee": "350"
+        "id": "123456",
+        "description": "350 AED"
       },
       "submittedBy": {
         "name": "abc ctx zzz",
@@ -22,7 +22,7 @@
     {
       "requestType": {
         "code": "SFREQ",
-        "desc": "Schooling Request"
+        "description": "Schooling Request"
       },
       "status": {
         "code": "APR",
@@ -30,7 +30,7 @@
       },
       "requestInfo": {
         "requestId": "123456",
-        "totalFee": "350"
+        "totalFee": "350 AED"
       },
       "submittedBy": {
         "name": "abc ctx zzz",
