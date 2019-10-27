@@ -1,0 +1,6 @@
+{
+  "status": "success",
+  "data": {
+    "report": "<!DOCTYPE html><html>  <head>    <title>BSH Reports</title> </head>  <body>    <p style=\"color:red;font-size:16px;\">      Leave Report, <strong>BSH</strong>- Leave Report    </p>  </body></html>"
+  }
+}
