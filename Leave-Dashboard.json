@@ -4,7 +4,7 @@
     {
       "requestType": {
         "code": "LREQ",
-        "desc": "Leave Request"
+        "description": "Leave Request"
       },
       "toolTip": "Annual",
       "status": {
@@ -17,10 +17,10 @@
       },
       "requestInfo": {
         "id": "123456",
-        "desc": "24 days",
+        "description": "24 days",
         "type": {
           "code": "ANL",
-          "desc": "Annual Leave"
+          "description": "Annual Leave"
         },
         "dateRange": "12-11-2019|26-11-2019"
       }

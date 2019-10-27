@@ -41,7 +41,7 @@
       {
         "requestType": {
           "code": "TREQ",
-          "desc": "Ticket Request"
+          "description": "Ticket Request"
         },
         "status": {
           "code": "APR",
@@ -51,29 +51,27 @@
           "name": "abc ctx zzz",
           "date": "10-08-2019"
         },
-        "requestedFor": "abc ctx zzz",
         "requestInfo": {
-          "requestId": "123456",
-          "travellersCount": 2
+          "id": "123456",
+          "description": "2 Tickets"
         }
       },
       {
         "requestType": {
           "code": "TREQ",
-          "desc": "Ticket Request"
+          "description": "Ticket Request"
         },
         "status": {
-          "code": "PEN",
-          "description": "Pending"
+          "code": "APR",
+          "description": "Approved"
         },
         "submittedBy": {
           "name": "abc ctx zzz",
           "date": "10-08-2019"
         },
-        "requestedFor": "abc ctx zzz",
         "requestInfo": {
-          "requestId": "123456",
-          "travellersCount": 2
+          "id": "123456",
+          "description": "2 Tickets"
         }
       }
     ]
