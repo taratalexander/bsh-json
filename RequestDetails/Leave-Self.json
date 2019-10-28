@@ -1,0 +1,75 @@
+{
+  "status": "success",
+  "data": {
+    "componentList": [
+      {
+        "type": "submittedBy",
+        "date": "1 May 2019",
+        "name": "Arkell Charles"
+      },
+      {
+        "type": "requestInfo",
+        "title": "Leave Request",
+        "id": 545524,
+        "status": {
+          "code": "APR",
+          "desc": "Approved"
+        },
+        "info": "30 Days",
+        "subType": "Annual Leave"
+      },
+      {
+        "type": "dateRange",
+        "startDate": "06 May 2019",
+        "endDate": "15 May 2019"
+      },
+      {
+        "type": "multilineText",
+        "title": "Reason",
+        "description": "This is to certifiy that the above furnished details are true to the bset of my knowledge"
+      },
+      {
+        "type": "approvers",
+        "title": "Approvers",
+        "approverList": [
+          {
+            "name": "Jaquelin Tesla Fernandez",
+            "status": {
+              "code": "APR",
+              "description": "Approved"
+            },
+            "date": "26-11-2019"
+          },
+          {
+            "name": "Jim Ian Carry",
+            "status": {
+              "code": "PEND",
+              "description": "Pending"
+            }
+          }
+        ]
+      },
+      {
+        "type": "attachments",
+        "title": "Attached Files",
+        "attachmentList": [
+          {
+            "type": {
+              "code": "PDF",
+              "code (copy)": "PDF",
+              "description": "PDF"
+            },
+            "url": "http://www.xys.com/test"
+          },
+          {
+            "type": {
+              "code": "JPG",
+              "description": "JPG"
+            },
+            "url": "http://www.xys.com/test"
+          }
+        ]
+      }
+    ]
+  }
+}
