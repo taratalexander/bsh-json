@@ -682,5 +682,8 @@
       "triggerId": "36835",
       "DBFunctionName": "bsh$tp_ui.get_country_list"
     }
-  ]
+  ],
+  "requetType": "LREQ",
+  "triggerId": "storedProcName",
+  "DBFunctionName": "bsh$ui_mob.submit_fun_name"
 }

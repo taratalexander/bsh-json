@@ -1,0 +1,33 @@
+{
+  "form": {
+    "LEAVE_START_DATE": "06-10-2019|06-10-2019",
+    "EMPLOYEE_FULL_NAME": "70637",
+    "EXPCEPTION_FLAG": true,
+    "REQUEST_DATE": "06-10-2019",
+    "ADVANCE_PAYMENT_FLAG": "Y",
+    "PASSPORT_FLAG": true,
+    "DESTINATION": "abcd",
+    "TEL_IN_LEAVE": "0504566",
+    "REPLACING_PRS_ID": "DRE ADMIN ( 4 )",
+    "WEB_REMARKS": "dffd sdfsf . sdf sdf sdf . sdf . dsfrer erfrf er ferf . rferfre",
+    "REPLACING_EMPLOYEE_NO": "1234",
+    "REPLACING_EMPLOYEE_NAME": "Emplyee Name",
+    "ADDRESS_IN_LEAVE": "house No, Street Name,City, Country",
+    "EXCEPTION_DETAILS": "details",
+    "PRSLVMF020D": [
+      {
+        "LEAVE_TYPE_LKP": "leave type",
+        "ID": "1235",
+        "LEAVE_TYPE_DESC_N": "LREQ"
+      },
+      {
+        "LEAVE_TYPE_LKP": "leave type",
+        "ID": "12335",
+        "LEAVE_TYPE_DESC_N": "LREQ1"
+      }
+    ]
+  },
+  "requetType": "LREQ",
+  "triggerId": "12345",
+  "DBFunctionName": "bsh$ui_mob.submit_fun_name"
+}
