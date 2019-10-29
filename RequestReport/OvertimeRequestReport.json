@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "data": {
+    "reports": [
+      {
+        "code": "LSR",
+        "description": "Overtime Report"
+      }
+    ],
+    "requests": [
+      {
+        "code": "LREQ",
+        "description": "Overtime Request"
+      }
+    ]
+  }
+}

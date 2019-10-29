@@ -1,0 +1,37 @@
+{
+  "status": "success",
+  "data": {
+    "reports": [
+      {
+        "code": "LSR",
+        "description": "Leave Statement  Report"
+      },
+      {
+        "code": "LBR",
+        "description": "Leave Balance Report"
+      }
+    ],
+    "requests": [
+      {
+        "code": "LREQ",
+        "description": "Leave Request"
+      },
+      {
+        "code": "LRET",
+        "description": "Leave Return"
+      },
+      {
+        "code": "LCAN",
+        "description": "Leave Cancel"
+      },
+      {
+        "code": "LADJ",
+        "description": "Leave Adjustment"
+      },
+      {
+        "code": "LCAS",
+        "description": "Cash Leave"
+      }
+    ]
+  }
+}
