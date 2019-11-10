@@ -1,0 +1,97 @@
+{
+  "status": "success",
+  "data": {
+    "componentList": [
+      {
+        "type": "submittedBy",
+        "name": "Arkell Charles",
+        "date": "1 May 2019"
+      },
+      {
+        "type": "requestInfo",
+        "title": "Ticket Request",
+        "id": 545524,
+        "status": {
+          "code": "APR",
+          "desc": "Approved"
+        },
+        "info": "2 Tickets"
+      },
+      {
+        "type": "info",
+        "label": "Current Balance",
+        "description": "5"
+      },
+      {
+        "type": "travellers",
+        "title": "Travellers",
+        "travellerList": [
+          {
+            "name": "Carla Wildner",
+            "relation": "Daughter",
+            "amount": "100 AED",
+            "dob": "12/06/2000"
+          },
+          {
+            "name": "Michael Richards",
+            "relation": "Son",
+            "amount": "150 AED",
+            "dob": "10/06/1997"
+          }
+        ]
+      },
+      {
+        "type": "approvers",
+        "title": "Approvers",
+        "approverList": [
+          {
+            "name": "Jaquelin Tesla Fernandez",
+            "status": {
+              "code": "APR",
+              "description": "Approved"
+            },
+            "date": "26-11-2019"
+          },
+          {
+            "name": "Jim Ian Carry",
+            "status": {
+              "code": "PEND",
+              "description": "Pending"
+            }
+          }
+        ]
+      },
+      {
+        "type": "vacation",
+        "title": "Vacation",
+        "subType": "Annual Leave",
+        "info": "20 Days"
+      },
+      {
+        "type": "dateRange",
+        "startDate": "06 May 2019",
+        "endDate": "15 Oct 2019"
+      },
+      {
+        "type": "attachments",
+        "title": "Attached Files",
+        "attachmentList": [
+          {
+            "type": {
+              "code": "PDF",
+              "description": "PDF"
+            },
+            "url": "http://www.xys.com/test"
+          },
+          {
+            "type": {
+              "code": "JPG",
+              "description": "JPG"
+            },
+            "url": "http://www.xys.com/test"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "status": "success",
+  "data": {
+    "componentList": [
+      {
+        "type": "submittedBy",
+        "name": "Arkell Charles",
+        "date": "1 May 2019"
+      },
+      {
+        "type": "requestInfo",
+        "title": "Loan Request",
+        "id": 545524,
+        "status": {
+          "code": "APR",
+          "desc": "Approved"
+        },
+        "info": "5000 AED",
+        "subType": "Home Loan"
+      },
+      {
+        "type": "info",
+        "label": "Start Date",
+        "description": "24/06/2019"
+      },
+      {
+        "type": "info",
+        "label": "Installment",
+        "description": "1,000 AED"
+      },
+      {
+        "type": "approvers",
+        "title": "Approvers",
+        "approverList": [
+          {
+            "name": "Jaquelin Tesla Fernandez",
+            "status": {
+              "code": "APR",
+              "description": "Approved"
+            },
+            "date": "26-11-2019"
+          },
+          {
+            "name": "Jim Ian Carry",
+            "status": {
+              "code": "PEND",
+              "description": "Pending"
+            }
+          }
+        ]
+      },
+      {
+        "type": "attachments",
+        "title": "Attached Files",
+        "attachmentList": [
+          {
+            "type": {
+              "code": "PDF",
+              "description": "PDF"
+            },
+            "url": "http://www.xys.com/test"
+          },
+          {
+            "type": {
+              "code": "JPG",
+              "description": "JPG"
+            },
+            "url": "http://www.xys.com/test"
+          }
+        ]
+      }
+    ]
+  }
+}

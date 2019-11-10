@@ -1,0 +1,84 @@
+{
+  "status": "success",
+  "data": {
+    "componentList": [
+      {
+        "type": "submittedBy",
+        "name": "Arkell Charles",
+        "date": "1 May 2019"
+      },
+      {
+        "type": "requestInfo",
+        "title": "Expense Claim Request",
+        "id": 545524,
+        "status": {
+          "code": "APR",
+          "desc": "Approved"
+        },
+        "info": "290 AED"
+      },
+      {
+        "type": "info",
+        "label": "Submitted By",
+        "description": "Archemedes Abcd"
+      },
+      {
+        "type": "expense",
+        "title": "Expenses",
+        "expenseList": [
+          {
+            "amount": "100 AED",
+            "subType": "Travel Allowance",
+            "date": "12/06/2019"
+          },
+          {
+            "amount": "150 AED",
+            "subType": "House Allowance",
+            "date": "10/06/2019"
+          }
+        ]
+      },
+      {
+        "type": "approvers",
+        "title": "Approvers",
+        "approverList": [
+          {
+            "name": "Jaquelin Tesla Fernandez",
+            "status": {
+              "code": "APR",
+              "description": "Approved"
+            },
+            "date": "26-11-2019"
+          },
+          {
+            "name": "Jim Ian Carry",
+            "status": {
+              "code": "PEND",
+              "description": "Pending"
+            }
+          }
+        ]
+      },
+      {
+        "type": "attachments",
+        "title": "Attached Files",
+        "attachmentList": [
+          {
+            "type": {
+              "code": "PDF",
+              "description": "PDF"
+            },
+            "url": "http://www.xys.com/test"
+          },
+          {
+            "type": {
+              "code": "JPG",
+              "description": "JPG"
+            },
+            "url": "http://www.xys.com/test"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "month": "January",
+      "dates": [
+        {
+          "event": "New Year",
+          "startDate": "01-01-2019",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "month": "April",
+      "dates": [
+        {
+          "event": "Prophet's Ascension",
+          "startDate": "02-04-2019",
+          "endDate": "03-04-2019",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "month": "June",
+      "dates": [
+        {
+          "event": "Eid al-Fitrn",
+          "startDate": "03-06-2019",
+          "endDate": "06-06-2019",
+          "count": 4
+        },
+        {
+          "startDate": "30-06-2019",
+          "event": "Eid al-Fitr Eve",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "month": "November",
+      "dates": [
+        {
+          "startDate": "30-11-2019",
+          "event": "Commemoration Day",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "month": "December",
+      "dates": [
+        {
+          "startDate": "02-12-2019",
+          "event": "National Day",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}
