@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "data": {
+    "reports": [
+      {
+        "code": "LSR",
+        "description": "Loan Report"
+      }
+    ],
+    "requests": [
+      {
+        "code": "LREQ",
+        "description": "Loan Request"
+      }
+    ]
+  }
+}

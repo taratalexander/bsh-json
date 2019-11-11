@@ -1,0 +1,83 @@
+{
+  "status": "success",
+  "data": {
+    "componentList": [
+      {
+        "type": "submittedBy",
+        "name": "Arkell Charles",
+        "date": "1 May 2019"
+      },
+      {
+        "type": "requestInfo",
+        "title": "Schooling Request",
+        "id": 545524,
+        "status": {
+          "code": "APR",
+          "desc": "Approved"
+        },
+        "info": "2500 AED"
+      },
+      {
+        "type": "children",
+        "title": "Children",
+        "childrenList": [
+          {
+            "name": "Jaden Smith",
+            "relation": "Daughter",
+            "amount": "1500 AED",
+            "year": "2018-2019",
+            "subType": "Books payment"
+          },
+          {
+            "name": "Jaden Smith",
+            "relation": "Daughter",
+            "amount": "1500 AED",
+            "year": "2018-2019",
+            "subType": "Tuition Fee"
+          }
+        ]
+      },
+      {
+        "type": "approvers",
+        "title": "Approvers",
+        "approverList": [
+          {
+            "name": "Jaquelin Tesla Fernandez",
+            "status": {
+              "code": "APR",
+              "description": "Approved"
+            },
+            "date": "26-11-2019"
+          },
+          {
+            "name": "Jim Ian Carry",
+            "status": {
+              "code": "PEND",
+              "description": "Pending"
+            }
+          }
+        ]
+      },
+      {
+        "type": "attachments",
+        "title": "Attached Files",
+        "attachmentList": [
+          {
+            "type": {
+              "code": "PDF",
+              "description": "PDF"
+            },
+            "url": "http://www.xys.com/test"
+          },
+          {
+            "type": {
+              "code": "JPG",
+              "description": "JPG"
+            },
+            "url": "http://www.xys.com/test"
+          }
+        ]
+      }
+    ]
+  }
+}
