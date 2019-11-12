@@ -5,238 +5,244 @@
       "title": "Overtime Request",
       "type": "OVERTIME",
       "requestId": "124566644",
-      "date": "26 July 2019",
+      "date": "26-07-2019",
       "submittedBy": "James Hades Gosling",
-      "requestedFor": "Pep Gaurdiola Sala",
-      "details": [
-        {
-          "type": "submittedBy",
-          "date": "1 May 2019",
-          "name": "Arkell Charles"
-        },
-        {
-          "type": "requestInfo",
-          "title": "Overtime Request",
-          "id": 545524,
-          "status": {
-            "code": "APR",
-            "desc": "Approved"
+      "details": {
+        "componentList": [
+          {
+            "type": "submittedBy",
+            "date": "1 May 2019",
+            "name": "Arkell Charles"
           },
-          "info": "200 AED"
-        },
-        {
-          "type": "overtime",
-          "title": "Overtime",
-          "overtimeList": [
-            {
-              "subType": "Weekend",
-              "date": "12/06/2019",
-              "amount": "3hrs /100 AED"
+          {
+            "type": "requestInfo",
+            "title": "Overtime Request",
+            "id": 545524,
+            "status": {
+              "code": "APR",
+              "desc": "Approved"
             },
-            {
-              "subType": "Late night",
-              "date": "10/06/2019",
-              "amount": "2hrs /67 AED"
-            }
-          ]
-        },
-        {
-          "type": "approvers",
-          "title": "Approvers",
-          "approverList": [
-            {
-              "name": "Jaquelin Tesla Fernandez",
-              "status": {
-                "code": "APR",
-                "description": "Approved"
+            "info": "200 AED"
+          },
+          {
+            "type": "overtime",
+            "title": "Overtime",
+            "overtimeList": [
+              {
+                "subType": "Weekend",
+                "date": "12/06/2019",
+                "amount": "3hrs /100 AED"
               },
-              "date": "26-11-2019"
-            },
-            {
-              "name": "Jim Ian Carry",
-              "status": {
-                "code": "PEND",
-                "description": "Pending"
+              {
+                "subType": "Late night",
+                "date": "10/06/2019",
+                "amount": "2hrs /67 AED"
               }
-            }
-          ]
-        },
-        {
-          "type": "attachments",
-          "title": "Attached Files",
-          "attachmentList": [
-            {
-              "type": {
-                "code": "PDF",
-                "description": "PDF"
+            ]
+          },
+          {
+            "type": "approvers",
+            "title": "Approvers",
+            "approverList": [
+              {
+                "name": "Jaquelin Tesla Fernandez",
+                "status": {
+                  "code": "APR",
+                  "description": "Approved"
+                },
+                "date": "26-11-2019"
               },
-              "url": "http://www.xys.com/test"
-            },
-            {
-              "type": {
-                "code": "JPG",
-                "description": "JPG"
+              {
+                "name": "Jim Ian Carry",
+                "status": {
+                  "code": "PEND",
+                  "description": "Pending"
+                }
+              }
+            ]
+          },
+          {
+            "type": "attachments",
+            "title": "Attached Files",
+            "attachmentList": [
+              {
+                "type": {
+                  "code": "PDF",
+                  "description": "PDF"
+                },
+                "url": "http://www.xys.com/test"
               },
-              "url": "http://www.xys.com/test"
-            }
-          ]
-        }
-      ]
+              {
+                "type": {
+                  "code": "JPG",
+                  "description": "JPG"
+                },
+                "url": "http://www.xys.com/test"
+              }
+            ]
+          }
+        ]
+      },
+      "requestedFor": "Pep Gaurdiola Sala"
     },
     {
       "title": "Leave Request",
       "type": "LEAVE",
       "requestId": "124561212",
-      "date": "6 June 2019",
+      "date": "06-06-2019",
       "submittedBy": "James Hades Gosling",
       "requestedFor": "James Hades Gosling",
-      "details": [
-        {
-          "type": "submittedBy",
-          "date": "1 May 2019",
-          "name": "Arkell Charles"
-        },
-        {
-          "type": "requestInfo",
-          "title": "Leave Request",
-          "id": 545524,
-          "status": {
-            "code": "APR",
-            "desc": "Approved"
+      "details": {
+        "componentList": [
+          {
+            "type": "submittedBy",
+            "date": "1 May 2019",
+            "name": "Arkell Charles"
           },
-          "info": "30 Days",
-          "subType": "Annual Leave"
-        },
-        {
-          "type": "dateRange",
-          "startDate": "06 May 2019",
-          "endDate": "15 May 2019"
-        },
-        {
-          "type": "multilineText",
-          "title": "Reason",
-          "description": "This is to certifiy that the above furnished details are true to the bset of my knowledge"
-        },
-        {
-          "type": "approvers",
-          "title": "Approvers",
-          "approverList": [
-            {
-              "name": "Jaquelin Tesla Fernandez",
-              "status": {
-                "code": "APR",
-                "description": "Approved"
-              },
-              "date": "26-11-2019"
+          {
+            "type": "requestInfo",
+            "title": "Leave Request",
+            "id": 545524,
+            "status": {
+              "code": "APR",
+              "desc": "Approved"
             },
-            {
-              "name": "Jim Ian Carry",
-              "status": {
-                "code": "PEND",
-                "description": "Pending"
+            "info": "30 Days",
+            "subType": "Annual Leave"
+          },
+          {
+            "type": "dateRange",
+            "startDate": "06 May 2019",
+            "endDate": "15 May 2019"
+          },
+          {
+            "type": "multilineText",
+            "title": "Reason",
+            "description": "This is to certifiy that the above furnished details are true to the bset of my knowledge"
+          },
+          {
+            "type": "approvers",
+            "title": "Approvers",
+            "approverList": [
+              {
+                "name": "Jaquelin Tesla Fernandez",
+                "status": {
+                  "code": "APR",
+                  "description": "Approved"
+                },
+                "date": "26-11-2019"
+              },
+              {
+                "name": "Jim Ian Carry",
+                "status": {
+                  "code": "PEND",
+                  "description": "Pending"
+                }
               }
-            }
-          ]
-        },
-        {
-          "type": "attachments",
-          "title": "Attached Files",
-          "attachmentList": [
-            {
-              "type": {
-                "code": "PDF",
-                "code (copy)": "PDF",
-                "description": "PDF"
+            ]
+          },
+          {
+            "type": "attachments",
+            "title": "Attached Files",
+            "attachmentList": [
+              {
+                "type": {
+                  "code": "PDF",
+                  "code (copy)": "PDF",
+                  "description": "PDF"
+                },
+                "url": "http://www.xys.com/test"
               },
-              "url": "http://www.xys.com/test"
-            },
-            {
-              "type": {
-                "code": "JPG",
-                "description": "JPG"
-              },
-              "url": "http://www.xys.com/test"
-            }
-          ]
-        }
-      ]
+              {
+                "type": {
+                  "code": "JPG",
+                  "description": "JPG"
+                },
+                "url": "http://www.xys.com/test"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Loan Request",
       "type": "LOAN",
       "requestId": "10000001",
-      "date": "16 May 2019",
+      "date": "16-09-2019",
       "submittedBy": "Tommy Tom Hilfigher",
       "requestedFor": "Tommy Tom Hilfigher",
-      "details": [
-        {
-          "type": "submittedBy",
-          "name": "Arkell Charles",
-          "date": "1 May 2019"
-        },
-        {
-          "type": "requestInfo",
-          "title": "Loan Request",
-          "id": 545524,
-          "status": {
-            "code": "APR",
-            "desc": "Approved"
+      "details": {
+        "componentList": [
+          {
+            "type": "submittedBy",
+            "name": "Arkell Charles",
+            "date": "1 May 2019"
           },
-          "info": "5000 AED",
-          "subType": "Home Loan"
-        },
-        {
-          "type": "info",
-          "label": "Start Date",
-          "description": "24/06/2019"
-        },
-        {
-          "type": "info",
-          "label": "Installment",
-          "description": "1,000 AED"
-        },
-        {
-          "type": "approvers",
-          "title": "Approvers",
-          "approverList": [
-            {
-              "name": "Jaquelin Tesla Fernandez",
-              "status": {
-                "code": "APR",
-                "description": "Approved"
-              },
-              "date": "26-11-2019"
+          {
+            "type": "requestInfo",
+            "title": "Loan Request",
+            "id": 545524,
+            "status": {
+              "code": "APR",
+              "desc": "Approved"
             },
-            {
-              "name": "Jim Ian Carry",
-              "status": {
-                "code": "PEND",
-                "description": "Pending"
+            "info": "5000 AED",
+            "subType": "Home Loan"
+          },
+          {
+            "type": "info",
+            "label": "Start Date",
+            "description": "24/06/2019"
+          },
+          {
+            "type": "info",
+            "label": "Installment",
+            "description": "1,000 AED"
+          },
+          {
+            "type": "approvers",
+            "title": "Approvers",
+            "approverList": [
+              {
+                "name": "Jaquelin Tesla Fernandez",
+                "status": {
+                  "code": "APR",
+                  "description": "Approved"
+                },
+                "date": "26-11-2019"
+              },
+              {
+                "name": "Jim Ian Carry",
+                "status": {
+                  "code": "PEND",
+                  "description": "Pending"
+                }
               }
-            }
-          ]
-        },
-        {
-          "type": "attachments",
-          "title": "Attached Files",
-          "attachmentList": [
-            {
-              "type": {
-                "code": "PDF",
-                "description": "PDF"
+            ]
+          },
+          {
+            "type": "attachments",
+            "title": "Attached Files",
+            "attachmentList": [
+              {
+                "type": {
+                  "code": "PDF",
+                  "description": "PDF"
+                },
+                "url": "http://www.xys.com/test"
               },
-              "url": "http://www.xys.com/test"
-            },
-            {
-              "type": {
-                "code": "JPG",
-                "description": "JPG"
-              },
-              "url": "http://www.xys.com/test"
-            }
-          ]
-        }
-      ]
+              {
+                "type": {
+                  "code": "JPG",
+                  "description": "JPG"
+                },
+                "url": "http://www.xys.com/test"
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
